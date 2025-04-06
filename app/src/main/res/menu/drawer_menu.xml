@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home" />
+
+    <item android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_person" />
+
+    <item android:id="@+id/nav_chat"
+        android:title="Chat"
+        android:icon="@drawable/ic_chat" />
+
+    <item
+        android:id="@+id/nav_change_password"
+        android:title="Change Password"
+        android:icon="@drawable/ic_password" />
+
+    <item android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@drawable/ic_logout" />
+</menu>
