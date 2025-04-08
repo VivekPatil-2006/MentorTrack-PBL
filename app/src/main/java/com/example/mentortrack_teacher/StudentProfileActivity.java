@@ -1,5 +1,6 @@
 package com.example.mentortrack_teacher;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -28,7 +29,7 @@ import java.util.Map;
 public class StudentProfileActivity extends AppCompatActivity {
 
     TextView name, rollNo, phone, parentphone, batch, division, department, address, email, mentorEmail, password, year;
-    ImageView imageProfile;
+    ImageView imageProfile, imageFeedback;
     FirebaseFirestore db;
 
     @Override
@@ -38,6 +39,7 @@ public class StudentProfileActivity extends AppCompatActivity {
 
         // Bind views
         imageProfile = findViewById(R.id.student_image);
+        imageFeedback = findViewById(R.id.feedback_icon);
         name = findViewById(R.id.student_name);
         rollNo = findViewById(R.id.student_rollno);
         phone = findViewById(R.id.student_phonenumber);
@@ -61,6 +63,17 @@ public class StudentProfileActivity extends AppCompatActivity {
             Toast.makeText(this, "Student email not found", Toast.LENGTH_SHORT).show();
             finish();
         }
+
+        // Set click listener for feedback image
+        imageFeedback.setOnClickListener(v -> {
+            if (studentEmail != null) {
+                Intent intent = new Intent(StudentProfileActivity.this, SendMessageActivity.class);
+                intent.putExtra("email", studentEmail);
+                startActivity(intent);
+            } else {
+                Toast.makeText(this, "Student email not found", Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     private void loadStudentProfile(String studentEmail) {
@@ -174,5 +187,4 @@ public class StudentProfileActivity extends AppCompatActivity {
                     Toast.makeText(this, "Failed to load exam data", Toast.LENGTH_SHORT).show();
                 });
     }
-
 }

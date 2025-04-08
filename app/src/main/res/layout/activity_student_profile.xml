@@ -49,13 +49,13 @@
             <!-- Feedback Icon -->
             <ImageView
                 android:id="@+id/feedback_icon"
-                android:layout_width="40dp"
+                android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:layout_gravity="top|end"
                 android:layout_margin="8dp"
-                android:padding="8dp"
-                android:contentDescription="Feedback Icon"
                 android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Feedback Icon"
+                android:padding="8dp"
                 android:src="@drawable/ic_communication" />
         </FrameLayout>
 
