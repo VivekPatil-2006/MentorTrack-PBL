@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".StudentProfileActivity">
+
+    <LinearLayout
+        android:id="@+id/chart_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Profile Image and Feedback Icon -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp">
+
+            <!-- Centered Profile Image -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    app:cardCornerRadius="80dp"
+                    app:cardElevation="4dp"
+                    app:strokeColor="@android:color/darker_gray"
+                    app:strokeWidth="1dp"
+                    android:layout_marginBottom="8dp">
+
+                    <ImageView
+                        android:id="@+id/student_image"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="Student Image"
+                        android:src="@drawable/ic_profile_placeholder" />
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+            <!-- Feedback Icon -->
+            <ImageView
+                android:id="@+id/feedback_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="top|end"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:contentDescription="Feedback Icon"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_communication" />
+        </FrameLayout>
+
+        <!-- Student Information Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="12dp"
+            app:strokeColor="@android:color/darker_gray"
+            app:strokeWidth="1dp"
+            android:layout_marginBottom="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Reusable function to show label and value -->
+                <!-- Repeat block for each field -->
+                <!-- Name -->
+                <TextView android:text="Name"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView android:id="@+id/student_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_box"
+                    android:padding="12dp"
+                    android:text="-" />
+
+                <!-- Roll No -->
+                <TextView android:text="Roll No"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView android:id="@+id/student_rollno"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_box"
+                    android:padding="12dp"
+                    android:text="-" />
+
+                <!-- Email -->
+                <TextView android:text="Email"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView android:id="@+id/student_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_box"
+                    android:padding="12dp"
+                    android:text="-" />
+
+                <!-- Phone Number -->
+                <TextView android:text="Phone Number"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView android:id="@+id/student_phonenumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_box"
+                    android:padding="12dp"
+                    android:text="-" />
+
+                <!-- Parent Phone -->
+                <TextView android:text="Parent Phone"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView android:id="@+id/student_parentphone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_box"
+                    android:padding="12dp"
+                    android:text="-" />
+
+                <!-- Batch -->
+                <TextView android:text="Batch"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView android:id="@+id/student_batch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_box"
+                    android:padding="12dp"
+                    android:text="-" />
+
+                <!-- Division -->
+                <TextView android:text="Division"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView android:id="@+id/student_division"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_box"
+                    android:padding="12dp"
+                    android:text="-" />
+
+                <!-- Department -->
+                <TextView android:text="Department"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView android:id="@+id/student_department"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_box"
+                    android:padding="12dp"
+                    android:text="-" />
+
+                <!-- Year -->
+                <TextView android:text="Year"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView android:id="@+id/student_year"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_box"
+                    android:padding="12dp"
+                    android:text="-" />
+
+                <!-- Mentor Email -->
+                <TextView android:text="Mentor Email"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView android:id="@+id/student_mentoremail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_box"
+                    android:padding="12dp"
+                    android:text="-" />
+
+                <!-- Address -->
+                <TextView android:text="Address"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView android:id="@+id/student_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minLines="2"
+                    android:background="@drawable/textview_box"
+                    android:padding="12dp"
+                    android:text="-" />
+
+                <!-- Password -->
+                <TextView android:text="Password"
+                    android:textStyle="bold"
+                    android:paddingTop="8dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView android:id="@+id/student_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_box"
+                    android:padding="12dp"
+                    android:text="-" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- You can add charts or graphs below this point -->
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "837473058071",
+    "project_id": "mentortrack-fe806",
+    "storage_bucket": "mentortrack-fe806.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837473058071:android:33efe88230c19aeded4b52",
+        "android_client_info": {
+          "package_name": "com.example.mentortrack_teacher"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHFJZFfV9vgcJBeKaWLL-zv7dvJKDgg_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837473058071:android:f4db5b52f24c12c0ed4b52",
+        "android_client_info": {
+          "package_name": "com.sveri.mentortrack_student"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHFJZFfV9vgcJBeKaWLL-zv7dvJKDgg_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

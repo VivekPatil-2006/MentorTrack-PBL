@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Circular ShapeAppearance Overlay Style -->
+    <style name="ShapeAppearanceOverlay.App.CircularImage" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Style to apply circular appearance to ShapeableImageView -->
+    <style name="CircleImageView" parent="">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.App.CircularImage</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
+    </style>
+
+    <!-- Optional alternative circular style for MaterialCardView or others -->
+    <style name="CircularImageViewStyle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Style for TextView labels like "Name", "Email" -->
+    <style name="TextLabel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FF000000</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <!-- Style for values like student name, roll no -->
+    <style name="TextBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FF333333</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <!-- Optional general student detail style (if you want to use this instead of separate label/value) -->
+    <style name="StudentDetail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+</resources>

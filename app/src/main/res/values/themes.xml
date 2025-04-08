@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base theme using Material3 -->
+    <style name="Base.Theme.MentorTrackTeacher" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- You can customize Material 3 colors here -->
+        <item name="colorPrimary">#9C27B0</item>
+        <item name="colorSecondary">#bcf5f5</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- App theme -->
+    <style name="Theme.MentorTrackTeacher" parent="Base.Theme.MentorTrackTeacher" />
+
+</resources>
