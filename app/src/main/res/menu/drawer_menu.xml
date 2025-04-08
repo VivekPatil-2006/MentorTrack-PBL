@@ -18,6 +18,11 @@
         android:title="Change Password"
         android:icon="@drawable/ic_password" />
 
+    <item
+        android:id="@+id/nav_feedback"
+        android:title="Feedbacks"
+        android:icon="@drawable/ic_feedback" />
+
     <item android:id="@+id/nav_logout"
         android:title="Logout"
         android:icon="@drawable/ic_logout" />

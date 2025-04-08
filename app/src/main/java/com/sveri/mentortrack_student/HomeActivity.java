@@ -108,6 +108,8 @@ public class HomeActivity extends AppCompatActivity {
                  startActivity(new Intent(getApplicationContext(), ChatActivity.class));
             } else if (id == R.id.nav_change_password) {
                 startActivity(new Intent(getApplicationContext(), ChangePasswordActivity.class));
+            }else if (id == R.id.nav_feedback) {
+                startActivity(new Intent(getApplicationContext(), FeedbackActivity.class));
             } else if (id == R.id.nav_logout) {
                 startActivity(new Intent(getApplicationContext(), LoginActivity.class));
                 finish();
