@@ -1,0 +1,11 @@
+<resources>
+    <string name="enter_admin_password">Enter Admin Password</string>
+    <string name="submit">SUBMIT</string>
+    <string name="app_name">Mentor Track</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_logo_desc">School Logo</string>
+    <string name="add_students">Add Students</string>
+    <string name="add_teachers">Add Teachers</string>
+    <string name="select_department">Select Department</string>
+</resources>

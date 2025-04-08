@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#FF6200EE</color>
+    <!-- Primary color palette -->
+    <color name="primary_color">#2196F3</color>
+    <color name="primary_light">#64B5F6</color>
+    <color name="primary_dark">#1976D2</color>
+
+    <!-- White variations -->
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_20">#33FFFFFF</color>
+
+    <!-- Error color -->
+    <color name="error_red">#FF5252</color>
+
+    <!-- Text colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color>
+
+    <!-- Gradient colors (for background) -->
+    <color name="gradient_start">#2196F3</color>
+    <color name="gradient_end">#00BCD4</color>
+
+    <!-- Status colors -->
+    <color name="success_green">#4CAF50</color>
+    <color name="warning_yellow">#FFC107</color>
+
+    <color name="primaryColor">#6200EE</color>
+
+
+
+</resources>

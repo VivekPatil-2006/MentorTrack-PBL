@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="departments_array">
+        <item>Computer</item>
+        <item>IT</item>
+        <item>ENTC</item>
+        <item>AIDS</item>
+        <item>ECE</item>
+    </string-array>
+</resources>

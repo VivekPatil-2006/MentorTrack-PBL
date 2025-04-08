@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <com.google.android.material.checkbox.MaterialCheckBox
+            android:id="@+id/studentCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            app:buttonTint="@color/primary_color" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/studentNameText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="John Doe"
+                android:textAppearance="?attr/textAppearanceSubtitle1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/studentMentorText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mentor: Dr. Smith"
+                android:layout_marginTop="4dp"
+                android:textAppearance="?attr/textAppearanceBody2" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

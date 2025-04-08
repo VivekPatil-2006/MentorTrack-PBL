@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="?attr/colorSurface"
+    tools:context=".OperationFragment">
+
+    <!-- Logo at the top -->
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/add_user"
+    android:contentDescription="@string/app_logo_desc" />
+
+    <!-- Add Students Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_add_students"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/add_students"
+        android:textAllCaps="false"
+        app:icon="@drawable/ic_person_add"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+        app:iconTint="?attr/colorPrimary" />
+
+    <!-- Add Teachers Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button_add_teachers"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_teachers"
+        android:textAllCaps="false"
+        app:icon="@drawable/ic_teacher"
+        app:iconGravity="textStart"
+        app:iconPadding="8dp"
+        app:iconTint="?attr/colorPrimary" />
+
+</LinearLayout>
