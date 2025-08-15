@@ -8,7 +8,7 @@ This project presents the development of a **Mentor Tracking System** aimed at e
 - **Technician** – Inputs academic data such as **Unit Test 1 (UT1)**, **Unit Test 2 (UT2)**, and **Insem** scores.
 - **Student** – Views performance and interacts with mentors through communication modules.
 
-[![Watch the video](https://img.youtube.com/vi/your_video_id/0.jpg)]([https://youtu.be/your_video_id](https://youtu.be/4O6QqK-Hpek?si=-qFLKjfShYZpQ3sK))
+[![Watch the video](https://github.com/VivekPatil-2006/MentorTrack-PBL/blob/main/watch_button.jpg)]([https://youtu.be/your_video_id](https://youtu.be/4O6QqK-Hpek?si=-qFLKjfShYZpQ3sK))
 
 
 ### 🎯 Objective
