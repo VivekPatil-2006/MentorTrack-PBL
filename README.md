@@ -10,7 +10,7 @@ This project presents the development of a **Mentor Tracking System** aimed at e
 
 ## 📌 Click on the image to view the project
 
-[![Watch the video](https://github.com/VivekPatil-2006/MentorTrack-PBL/blob/main/watch_button.jpg)]([https://youtu.be/your_video_id](https://youtu.be/4O6QqK-Hpek?si=-qFLKjfShYZpQ3sK))
+[![Watch the video](https://github.com/VivekPatil-2006/MentorTrack-PBL/blob/main/watch_button.jpg)](https://youtu.be/4O6QqK-Hpek?si=-qFLKjfShYZpQ3sK)
 
 
 ### 🎯 Objective
