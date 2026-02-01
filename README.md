@@ -4,7 +4,7 @@
 
 ## Features
 
-<img src="https://github.com/VivekPatil-2006/MentorTrack-PBL/blob/main/MentorTrack_Features.png" height=500 width=500>
+<img src="https://github.com/VivekPatil-2006/MentorTrack-PBL/blob/main/MentorTrack_Features.png" height=700 width=900>
 
 ---
 
