@@ -1,0 +1,13 @@
+# Environment files
+.env
+
+# Firebase secrets
+backend/firebase-service-account.json
+backend/credentials.json
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
