@@ -1,0 +1,31 @@
+{
+  "name": "mentortrack-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend API for MentorTrack application",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "firebase-admin": "^12.7.0",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "keywords": [
+    "mentortrack",
+    "api",
+    "express"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

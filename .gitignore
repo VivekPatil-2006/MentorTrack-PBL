@@ -1,0 +1,6 @@
+# Firebase secrets
+server/serviceAccountKey.json
+.env
+
+# Node
+node_modules/
