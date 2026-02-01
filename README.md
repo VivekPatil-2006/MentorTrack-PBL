@@ -17,6 +17,10 @@
 [![Watch the video](https://github.com/VivekPatil-2006/MentorTrack-PBL/blob/main/watch_button.jpg)](https://youtu.be/4O6QqK-Hpek?si=-qFLKjfShYZpQ3sK)
 
 ---
+## Features
+
+<img src="" height=500 width=500>
+
 
 ## 🎯 Objective
 Streamline mentorship by assigning teachers as mentors, enabling **continuous performance tracking**, personalized guidance, and proactive preparation for placements and internships.
